@@ -52,12 +52,6 @@ async def build_query_for_unique_ids(query_spec:dict = None, report_data:dict = 
     return query
 
     
-
-
-
-
-
-
 async def get_available_filters(report_category:str = None):
     try:
         filters_query = {
